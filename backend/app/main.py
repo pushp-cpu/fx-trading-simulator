@@ -158,10 +158,8 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:3000",
         "http://127.0.0.1:3000",
-        "https://fx-trading-simulator-oozl2xc6m-pushp-cpu.vercel.app",
-        "https://fx-trading-simulator-avqtxcug-pushp-cpu.vercel.app",
-        "https://fx-trading-simulator-q2ks4jbm8-pushp-cpu.vercel.app",
     ],
+    allow_origin_regex=r"https://fx-trading-simulator-[a-z0-9]+-pushp-cpu\.vercel\.app",
     allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
