@@ -160,6 +160,7 @@ app.add_middleware(
         "http://127.0.0.1:3000",
         "https://fx-trading-simulator-oozl2xc6m-pushp-cpu.vercel.app",
         "https://fx-trading-simulator-avqtxcug-pushp-cpu.vercel.app",
+        "https://fx-trading-simulator-q2ks4jbm8-pushp-cpu.vercel.app",
     ],
     allow_credentials=False,
     allow_methods=["*"],
