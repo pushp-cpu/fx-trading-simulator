@@ -1,0 +1,8 @@
+import os
+
+DATABASE_URL = os.getenv(
+    "DATABASE_URL",
+    "postgresql+psycopg://fxuser:fxpassword@localhost:5432/fxsim",
+)
+TICK_INTERVAL_SECONDS = float(os.getenv("TICK_INTERVAL_SECONDS", "1"))
+STARTING_CASH_INR = os.getenv("STARTING_CASH_INR", "1000000")
